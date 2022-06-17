@@ -67,7 +67,7 @@ function App() {
               </div>
 
               <div className="border-4 border-black w-12/12 md:w-3/12 flex flex-col">
-                <div class="bg-cyan-400 text-black py-4 grid place-content-center border-b-4 border-black h-16">
+                <div class="bg-pink-300 text-black py-4 grid place-content-center border-b-4 border-black h-16">
                   <p className="m-0 text-xs">Project Market</p>
                 </div>
 
@@ -91,16 +91,16 @@ function App() {
             <p className="title">Introduction</p>
 
             <div className="my-1 flex flex-col">
-              <h2 className="uppercase text-xs md:text-4xl md:nes-balloon md:from-left">my blockchain journey</h2>
+              <h2 className="uppercase text-xs md:text-4xl nes-balloon">my blockchain journey</h2>
 
-              <div className="my-1 md:my-5"></div>
+              <div className="my-2"></div>
 
               <div className="md:nes-balloon md:from-right">
                 <div className="flex gap-2 md:gap-8 justify-center">
-                  <a href="https://twitter.com/0xMnkhod" class="nes-icon twitter md:is-large"></a>
-                  <a href="https://www.instagram.com/mnkh_od/" class="nes-icon instagram md:is-large"></a>
-                  <a href="https://www.youtube.com/channel/UCVh8QoelEyRex93VecYjG1A" className="nes-icon youtube md:is-large"></a>
-                  <a href="https://github.com/mnkhod" className="nes-icon github md:is-large"></a>
+                  <a href="https://twitter.com/0xMnkhod" className="nes-icon twitter is-medium"></a>
+                  <a href="https://www.instagram.com/mnkh_od/" className="nes-icon instagram is-medium"></a>
+                  <a href="https://www.youtube.com/channel/UCVh8QoelEyRex93VecYjG1A" className="nes-icon youtube is-medium"></a>
+                  <a href="https://github.com/mnkhod" className="nes-icon github is-medium"></a>
                 </div>
               </div>
             </div>
