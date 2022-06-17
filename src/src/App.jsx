@@ -58,7 +58,6 @@ function App() {
                 <div className="py-4 px-1">
                   <button type="button" className="nes-btn text-xs">Coming Soon</button>
                 </div>
-
               </div>
 
               <div className="border-4 border-black flex flex-col">
@@ -74,6 +73,20 @@ function App() {
                   <button type="button" className="nes-btn text-xs">Coming Soon</button>
                 </div>
 
+              </div>
+
+              <div className="border-4 border-black flex flex-col">
+                <div class="bg-blue-400 text-white py-4 grid place-content-center border-b-4 border-black h-16">
+                  <p className="m-0 px-3">MNK Cheatsheet Market</p>
+                </div>
+
+                <div className="grow py-3 px-1 md:px-4 grid place-content-center">
+                  <p className="m-0 text-xs">Blockchain Development Framework Languages Tools Library CheatSheets,reward MNKch</p>
+                </div>
+
+                <div className="py-4 px-1">
+                  <button type="button" className="nes-btn text-xs">Coming Soon</button>
+                </div>
               </div>
 
               <div className="border-4 border-black flex flex-col">
