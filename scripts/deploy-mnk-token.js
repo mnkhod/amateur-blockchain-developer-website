@@ -3,15 +3,15 @@ const path = require('path');
 const hre = require("hardhat");
 
 async function main() {
-  const Greeter = await hre.ethers.getContractFactory("Greeter");
-  const greeter = await Greeter.deploy("Hello, Hardhat!");
+  const AmateurBlockchainDevelopersToken = await hre.ethers.getContractFactory("AmateurBlockchainDevelopersToken");
+  const mnkTokenContract = await AmateurBlockchainDevelopersToken.deploy();
 
-  await greeter.deployed();
+  await mnkTokenContract.deployed();
 
-  console.log("Greeter deployed to:", greeter.address);
+  console.log("mnkTokenContract deployed to:", mnkTokenContract.address);
 
   const content = {
-    'greeterContract' : greeter.address
+    'mnkTokenContract' : mnkTokenContract.address
   }
   createAddressJson(path.join(__dirname, '/../src/address.json'),JSON.stringify(content))
 }
@@ -32,4 +32,3 @@ function createAddressJson(path,content){
     return
   }
 }
-
