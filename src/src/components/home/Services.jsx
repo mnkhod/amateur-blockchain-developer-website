@@ -18,7 +18,7 @@ export default function Services(){
           <div className="py-5 px-0">
             <a href="https://mumbai.polygonscan.com/token/0x5AADe50B46c636259CE0E116041a9ca35678CE8a" className="nes-btn is-primary text-xs w-10/12">Mumbai Scan</a>
             <a href="https://mumbai.polygonscan.com/token/0x8550AA87b376D9a10492D4A9DFDDc5E9F01E84d0" className="nes-btn bg-blue-500 mt-3 is-primary text-xs w-10/12">Polygon Scan</a>
-            <a href="https://mumbai.polygonscan.com/token/0x8550AA87b376D9a10492D4A9DFDDc5E9F01E84d0" className="nes-btn mt-3 is-error text-xs w-10/12">Add To Metamask</a>
+            <a href="https://metamask.dsolutions.mn/add-token?name=Amateur%20Blockchain%20Developers%Token&symbol=MNK&decimals=18&address=0x8550AA87b376D9a10492D4A9DFDDc5E9F01E84d0&imgUrl=https://amateur-blockchain-developer.vercel.app/mnkToken.png" className="nes-btn mt-3 is-error text-xs w-10/12">Add To Metamask</a>
           </div>
         </div>
 
