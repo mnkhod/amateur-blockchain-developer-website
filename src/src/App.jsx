@@ -16,19 +16,29 @@ function App() {
       </div>
 
       <div className="grow flex justify-center items-center my-12">
-        <div className="w-11/12 md:w-7/12 p-0 m-0">
+        <div className="w-12/12 md:w-7/12 p-0 m-0 flex flex-col gap-y-20">
+
           <div className="nes-container with-title is-centered">
-            <p className="title">Services & Utility</p>
+            <p className="title uppercase text-blue-500 font-bold">Goal</p>
+            <div className="flex flex-col items-center gap-y-3">
+              <h2 className="uppercase text-xs md:text-4xl">Share Value & Impact Lives With Smart Contracts</h2>
+              <h2 className="uppercase text-gray-600 text-xs md:text-lg w-8/12">Platform is build to help developers transition from web 2.0 to web 3.0</h2>
+              <h2 className="uppercase text-gray-600 text-xs w-4/12">amateur developer - mnkhod</h2>
+            </div>
+          </div>
 
-            <div className="flex flex-col md:flex-row justify-around gap-4">
+          <div className="nes-container with-title is-centered">
+            <p className="title uppercase text-orange-500 font-bold">Services</p>
 
-              <div className="border-4 border-black w-12/12 md:w-3/12 flex flex-col">
-                <div class="bg-green-400 text-black py-4 grid place-content-center border-b-4 border-black h-16">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-y-7 md:gap-12">
+
+              <div className="border-4 border-black flex flex-col">
+                <div class="bg-green-400 text-white py-4 grid place-content-center border-b-4 border-black h-16">
                   <p className="m-0">MNK Token</p>
                 </div>
 
                 <div className="grow py-3 px-1 md:px-4 grid place-content-center">
-                  <p className="m-0 text-xs">Token that will allow a developer to access many services & utility</p>
+                  <p className="m-0 text-xs">Utility for every service</p>
                 </div>
 
                 <div className="py-4 px-1">
@@ -36,43 +46,13 @@ function App() {
                 </div>
               </div>
 
-              <div className="border-4 border-black w-12/12 md:w-3/12 flex flex-col">
-                <div class="bg-yellow-400 text-black py-4 grid place-content-center border-b-4 border-black h-16">
-                  <p className="m-0">Staking</p>
+              <div className="border-4 border-black flex flex-col">
+                <div class="bg-yellow-400 text-white py-4 grid place-content-center border-b-4 border-black h-16">
+                  <p className="m-0">Membership Staking</p>
                 </div>
 
                 <div className="grow py-3 px-1 md:px-4 grid place-content-center">
-                  <p className="m-0 text-xs">Earn more MNK token by staking</p>
-                </div>
-
-                <div className="py-4 px-1">
-                  <button type="button" className="nes-btn is-success text-xs">Learn More</button>
-                </div>
-
-              </div>
-
-              <div className="border-4 border-black w-12/12 md:w-3/12 flex flex-col">
-                <div class="bg-cyan-400 text-black py-4 grid place-content-center border-b-4 border-black h-16">
-                  <p className="m-0">Exchange</p>
-                </div>
-
-                <div className="grow py-3 px-1 md:px-4 grid place-content-center">
-                  <p className="m-0 text-xs">Gateway to getting MNK Tokens</p>
-                </div>
-
-                <div className="py-4 px-1">
-                  <button type="button" className="nes-btn is-success text-xs">Learn More</button>
-                </div>
-
-              </div>
-
-              <div className="border-4 border-black w-12/12 md:w-3/12 flex flex-col">
-                <div class="bg-pink-300 text-black py-4 grid place-content-center border-b-4 border-black h-16">
-                  <p className="m-0 text-xs">Project Market</p>
-                </div>
-
-                <div className="grow py-3 px-1 md:px-4 grid place-content-center">
-                  <p className="m-0 text-xs">Marketplace for web 3.0 projects</p>
+                  <p className="m-0 text-xs">Earn more MNK token by staking your membership NFT</p>
                 </div>
 
                 <div className="py-4 px-1">
@@ -81,14 +61,114 @@ function App() {
 
               </div>
 
+              <div className="border-4 border-black flex flex-col">
+                <div class="bg-cyan-400 text-white py-4 grid place-content-center border-b-4 border-black h-16">
+                  <p className="m-0">Exchange</p>
+                </div>
+
+                <div className="grow py-3 px-1 md:px-4 grid place-content-center">
+                  <p className="m-0 text-xs">Access to MNK Tokens at fixed price</p>
+                </div>
+
+                <div className="py-4 px-1">
+                  <button type="button" className="nes-btn text-xs">Coming Soon</button>
+                </div>
+
+              </div>
+
+              <div className="border-4 border-black flex flex-col">
+                <div class="bg-red-500 text-white py-4 grid place-content-center border-b-4 border-black h-16">
+                  <p className="m-0 text-xs px-2">MNK Project Market</p>
+                </div>
+
+                <div className="grow py-3 px-1 md:px-4 grid place-content-center">
+                  <p className="m-0 text-xs">My Exlusive web 3.0 project prototypes</p>
+                </div>
+
+                <div className="py-4 px-1">
+                  <button type="button" className="nes-btn text-xs">Coming Soon</button>
+                </div>
+
+              </div>
+
+              <div className="border-4 border-black flex flex-col">
+                <div class="bg-green-300 text-white py-4 grid place-content-center border-b-4 border-black h-16">
+                  <p className="m-0 text-xs px-2">MNKx Staking</p>
+                </div>
+
+                <div className="grow py-3 px-1 md:px-4 grid place-content-center">
+                  <p className="m-0 text-xs">Stake MNK tokens to gain governance MNKx tokens</p>
+                </div>
+
+                <div className="py-4 px-1">
+                  <button type="button" className="nes-btn text-xs">Coming Soon</button>
+                </div>
+
+              </div>
+
+              <div className="border-4 border-black flex flex-col">
+                <div class="bg-fuchsia-300 text-white py-4 grid place-content-center border-b-4 border-black h-16">
+                  <p className="m-0 text-xs px-2">Awesome Mongolian Blockchain Projects</p>
+                </div>
+
+                <div className="grow py-3 px-1 md:px-4 grid place-content-center">
+                  <p className="m-0 text-xs">List your tools/projects for greater audience</p>
+                </div>
+
+                <div className="py-4 px-1">
+                  <button type="button" className="nes-btn text-xs">Coming Soon</button>
+                </div>
+
+              </div>
+
+              <div className="border-4 border-black flex flex-col">
+                <div class="bg-rose-300 text-white py-4 grid place-content-center border-b-4 border-black h-16">
+                  <p className="m-0 text-xs px-2">Fund Me Please</p>
+                </div>
+
+                <div className="grow py-3 px-1 md:px-4 grid place-content-center">
+                  <p className="m-0 text-xs">Platform for developers to pitch their ideas & get funded from our treasury</p>
+                </div>
+
+                <div className="py-4 px-1">
+                  <button type="button" className="nes-btn text-xs">Coming Soon</button>
+                </div>
+              </div>
+
+              <div className="border-4 border-black flex flex-col">
+                <div class="bg-purple-500 text-white py-4 grid place-content-center border-b-4 border-black h-16">
+                  <p className="m-0 text-xs px-2">Amateur Blockchain Developers Forum</p>
+                </div>
+
+                <div className="grow py-3 px-1 md:px-4 grid place-content-center">
+                  <p className="m-0 text-xs">Forum for discussions. Voice your ideas</p>
+                </div>
+
+                <div className="py-4 px-1">
+                  <button type="button" className="nes-btn text-xs">Coming Soon</button>
+                </div>
+              </div>
+
+              <div className="border-4 border-black flex flex-col">
+                <div class="bg-orange-500 text-white py-4 grid place-content-center border-b-4 border-black h-16">
+                  <p className="m-0 text-xs px-2">Amateur Blockchain Developers Snapshot</p>
+                </div>
+
+                <div className="grow py-3 px-1 md:px-4 grid place-content-center">
+                  <p className="m-0 text-xs">Off-Chain Voting Platform.Use your MNKx governance tokens to voice your opinions</p>
+                </div>
+
+                <div className="py-4 px-1">
+                  <button type="button" className="nes-btn text-xs">Coming Soon</button>
+                </div>
+              </div>
+
             </div>
 
           </div>
 
-          <div className="my-12"></div>
-
           <div className="nes-container with-title is-centered">
-            <p className="title">Introduction</p>
+            <p className="title text-red-500 font-bold uppercase">socials</p>
 
             <div className="my-1 flex flex-col">
               <h2 className="uppercase text-xs md:text-4xl nes-balloon">my blockchain journey</h2>
