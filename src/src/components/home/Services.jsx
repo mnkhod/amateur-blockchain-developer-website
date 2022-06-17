@@ -24,11 +24,11 @@ export default function Services(){
 
         <div className="border-4 border-black flex flex-col">
           <div class="bg-white text-black py-4 grid place-content-center border-b-4 border-black h-16">
-            <p className="m-0">Airdrop</p>
+            <p className="m-0 px-2">MNK Token Airdrop</p>
           </div>
 
           <div className="grow py-3 px-1 md:px-4 grid place-content-center">
-            <p className="m-0 text-xs">Claim your airdrops</p>
+            <p className="m-0 text-xs">Claim your MNK token airdrops</p>
           </div>
 
           <div className="py-4 px-1">
@@ -43,6 +43,20 @@ export default function Services(){
 
           <div className="grow py-3 px-1 md:px-4 grid place-content-center">
             <p className="m-0 text-xs">Mint your Membership Non-Transferable NFT with MNK</p>
+          </div>
+
+          <div className="py-4 px-1">
+            <button type="button" className="nes-btn text-xs">Coming Soon</button>
+          </div>
+        </div>
+
+        <div className="border-4 border-black flex flex-col">
+          <div class="bg-red-600 text-white py-4 grid place-content-center border-b-4 border-black h-16">
+            <p className="m-0">Membership NFT Airdrop</p>
+          </div>
+
+          <div className="grow py-3 px-1 md:px-4 grid place-content-center">
+            <p className="m-0 text-xs">Claim your Membership NFT token airdrops</p>
           </div>
 
           <div className="py-4 px-1">
